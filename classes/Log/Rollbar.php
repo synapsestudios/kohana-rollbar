@@ -13,7 +13,7 @@ class Log_Rollbar extends Log_Writer {
 			return;
 
 		// Create a new Rollbar notifier instance.
-		$rollbar = new RatchetioNotifier($config);
+		$rollbar = new RollbarNotifier($config);
 
 		try
 		{
